@@ -66,8 +66,9 @@ hl.monitor({
 hl.on("hyprland.start", function()
     -- Core components
     hl.exec_cmd("hyprpm reload")
-    hl.exec_cmd("hyprlock")
+    -- hl.exec_cmd("hyprlock")
     hl.exec_cmd("noctalia -d")
+    hl.exec_cmd("awww-daemon")
 
     -- System services
     hl.exec_cmd("/usr/lib/xdg-desktop-portal-hyprland")
@@ -443,5 +444,4 @@ for i, name in ipairs(workspaceNames) do
 end
 
 -- Wallpaper daemon & wheel selector
-hl.exec_cmd("awww-daemon")
 bind("W", hl.dsp.exec_cmd("/home/asdq/.config/hypr/scripts/wallpaper-wheel.sh"))
