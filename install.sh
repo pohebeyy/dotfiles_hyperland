@@ -7,6 +7,7 @@ mkdir -p ~/.config/hypr ~/.config/quickshell ~/Pictures/wallpapers
 
 # Создаём симлинки на конфиги
 ln -sf "$DOTS_DIR/.config/hypr/hyprland.lua" ~/.config/hypr/hyprland.lua
+ln -sf "$DOTS_DIR/.config/hypr/hyprland.lua" ~/.config/hypr/hyprland.conf
 [ -f "$DOTS_DIR/.config/hypr/workspaces_bind.conf" ] && ln -sf "$DOTS_DIR/.config/hypr/workspaces_bind.conf" ~/.config/hypr/workspaces_bind.conf
 ln -sfn "$DOTS_DIR/.config/hypr/scripts" ~/.config/hypr/scripts
 ln -sfn "$DOTS_DIR/.config/quickshell/wallpaper-wheel" ~/.config/quickshell/wallpaper-wheel
