@@ -1,0 +1,6 @@
+# Создано install.sh. Обои меняются в настройках Noctalia, этот файл можно не трогать.
+[wallpaper]
+directory = "/home/asdq/Pictures/wallpapers"
+
+    [wallpaper.default]
+    path = "/home/asdq/Pictures/wallpapers/honkai-star-rail.jpg"

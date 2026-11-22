@@ -69,6 +69,8 @@ hl.on("hyprland.start", function()
     -- hl.exec_cmd("hyprlock")
     hl.exec_cmd("noctalia -d")
     hl.exec_cmd("awww-daemon")
+    hl.exec_cmd("wl-paste --type text --watch cliphist store")
+    hl.exec_cmd("wl-paste --type image --watch cliphist store")
 
     -- System services
     hl.exec_cmd("/usr/lib/xdg-desktop-portal-hyprland")
@@ -445,3 +447,4 @@ end
 
 -- Wallpaper daemon & wheel selector
 bind("W", hl.dsp.exec_cmd("/home/asdq/.config/hypr/scripts/wallpaper-wheel.sh"))
+bind("V", hl.dsp.exec_cmd("noctalia msg panel-toggle clipboard"))

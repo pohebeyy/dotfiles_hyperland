@@ -40,13 +40,7 @@ ShellRoot {
             var name = folderModel.get(idx, "fileName")
             if (!name) return
             var fullPath = root.rawWallDir + "/" + name
-            applyProc.command = [
-                "awww", "img", fullPath,
-                "--transition-type", "grow",
-                "--transition-pos", "center",
-                "--transition-duration", "1",
-                "--transition-fps", "60"
-            ]
+            applyProc.command = ["noctalia", "msg", "wallpaper-set", fullPath]
             applyProc.running = true
         }
 
