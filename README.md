@@ -1,7 +1,11 @@
 # [ POHEBEYY // DOTFILES_HYPRLAND ]
 
 **Arch Linux / Hyprland (Lua)**
+---
 
+<img width="1915" height="1079" alt="image" src="https://github.com/user-attachments/assets/69541148-bd18-4f02-ab53-7d5e2868bde9" />
+
+---
 Минималистичная и производительная конфигурация рабочего окружения на базе [`swrneko/dots-next`](https://github.com/swrneko/dots-next) 
 
 ---
@@ -114,8 +118,6 @@ yay -S --needed quickshell-git
 | `SUPER + ЛКМ / ПКМ` | Перетаскивание / изменение размера окна мышью |
 | `Медиа / яркость` | Громкость, плеер, подсветка экрана (работают и на экране блокировки) |
 
----
 
-<img width="1915" height="1079" alt="image" src="https://github.com/user-attachments/assets/69541148-bd18-4f02-ab53-7d5e2868bde9" />
 
 
