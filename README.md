@@ -6,6 +6,12 @@
 <img width="1915" height="1079" alt="image" src="https://github.com/user-attachments/assets/69541148-bd18-4f02-ab53-7d5e2868bde9" />
 
 ---
+
+<img width="1920" height="1062" alt="image" src="https://github.com/user-attachments/assets/b2d39da7-6e6c-4a6e-a318-21a50b6b5593" />
+
+
+---
+
 Минималистичная и производительная конфигурация рабочего окружения на базе [`swrneko/dots-next`](https://github.com/swrneko/dots-next) 
 
 ---
