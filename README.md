@@ -116,5 +116,6 @@ yay -S --needed quickshell-git
 
 ---
 
+<img width="1915" height="1079" alt="image" src="https://github.com/user-attachments/assets/69541148-bd18-4f02-ab53-7d5e2868bde9" />
 
 
